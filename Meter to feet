@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class MeterToFeet {
+ public static void main(String[] args) {
+  Scanner input = new Scanner(System.in);
+  system.out.print("enter the values in metres");
+  double meters = input.nextDouble();
+  double feet = metres * 3.28024;
+  System.out.println(metres + "meters is equal to" + feet + "feet");
+  input.close();
+}
+}
