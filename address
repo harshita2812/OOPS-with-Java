@@ -1,0 +1,18 @@
+public class AddressPrinter {
+    public static void main(String[] args) {
+        // i) Using a single print with newline characters
+        System.out.print(
+            "Harshita Shandilya\n" 
+            "Deoghar, Jharkhand 814112\n" +
+            "India\n"
+        );
+
+        System.out.println(); 
+
+        // ii) Using multiple println statements
+        System.out.println("Harshita Shandilya");
+        System.out.println("Deoghar, Jharkhand 814112");
+        System.out.println("India");
+    }
+}
+
