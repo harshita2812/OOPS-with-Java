@@ -1,0 +1,19 @@
+import java.util.*;
+class sum {
+    public static void main(String [] args)
+    {
+        int sum=0,c=0,i;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter a number:");
+        int n = sc.nextInt();
+        while(n!=0)
+        {
+            i=n%10;
+            sum=sum+i;
+            n/=10;
+            c++;
+        }
+        System.out.println("length of number:"+c);
+        System.out.println("sum of digits"+sum);
+    }
+}
